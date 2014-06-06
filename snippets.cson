@@ -13,3 +13,15 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+".text.plain":
+  "README":
+    "prefix": "readme"
+    "body": """
+    # ${1:Your Project Title Here}
+    ---
+    $2
+
+    ## Submitting Changes
+    * $3
+
+    """
